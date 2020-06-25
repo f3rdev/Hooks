@@ -13,9 +13,10 @@ import './index.css';
 // import RealExampleRef from './components/useRef/RealExampleRef';
 // import './components/useReducer/introReducer';
 // import Layout from './components/useLayoutEffect/Layout';
-import TodoApp from './components/useReducer/TodoApp';
+// import TodoApp from './components/useReducer/TodoApp';
+import MainApp from './components/useContext/MainApp';
 
 ReactDOM.render(
-    <TodoApp />,
+    <MainApp />,
   document.getElementById('root')
 );
